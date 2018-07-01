@@ -3,14 +3,13 @@ import React, { Component } from "react";
 class ListItems extends Component {
   constructor(props) {
     super(props);
-    
   }
   render() {
     return (
       <div>
         {this.props.todos.map(item => (
           <div
-          key={item.id}
+            key={item.id}
             style={{
               backgroundColor: "#fefefe",
               borderColor: "#ccc",
